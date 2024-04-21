@@ -19,7 +19,13 @@ This tool allow you to create virtual terminal sessions that persist even after 
    ```
 
 3. Detach from the tmux session
-   To detach from the tmux session without stopping your program, _*press Ctrl+b then press d*_. This will return you to the regular terminal session, but your program will continue running inside the tmux session.
+   To detach from the tmux session without stopping your program:
+
+   ```bash
+   press Ctrl + b then press d
+   ```
+
+   This will return you to the regular terminal session, but your program will continue running inside the tmux session.
 
 4. Exit the terminal then reattach the session
    You can now exit the terminal without stopping your program. When you want to reattach to the tmux session later, you can log back into your Ubuntu server and run:
